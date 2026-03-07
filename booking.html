@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>الحجز</title>
+
+<script>
+function send(){
+alert("تم ارسال طلب الحجز بنجاح")
+}
+</script>
+
+<style>
+body{font-family:Tahoma;text-align:center;background:#eef5f9;direction:rtl;}
+nav{background:#0d47a1;padding:15px;}
+nav a{color:white;margin:15px;text-decoration:none;}
+input{padding:10px;margin:10px;width:250px;}
+button{padding:10px 20px;background:#1e88e5;border:none;color:white;}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">الرئيسية</a>
+<a href="services.html">الخدمات</a>
+<a href="gallery.html">الصور</a>
+<a href="booking.html">الحجز</a>
+<a href="contact.html">التواصل</a>
+</nav>
+
+<h1>نموذج الحجز</h1>
+
+<input type="text" placeholder="اسم صاحب الكلب"><br>
+<input type="text" placeholder="اسم الكلب"><br>
+<input type="date"><br>
+<input type="number" placeholder="عدد الايام"><br>
+
+<button onclick="send()">ارسال الحجز</button>
+
+</body>
+</html>
